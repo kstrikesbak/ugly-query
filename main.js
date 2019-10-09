@@ -43,12 +43,18 @@ list2.style.color = 'rebeccapurple';
 const smallHeading1 = document.querySelector("#smallheading1")
 smallHeading1.style.fontSize ='50px';
 smallHeading1.style.textDecoration = "underline overline";
+smallHeading1.style.background= 'red';
+
+
 const smallHeading2 = document.querySelector("#smallheading2")
 smallHeading2.style.fontSize ='50px';
 smallHeading2.style.textDecoration = "underline overline";
+smallHeading2.style.background= 'red';
+
 const smallHeading3 = document.querySelector("#smallheading3")
 smallHeading3.style.fontSize ='50px';
 smallHeading3.style.textDecoration = "underline overline";
+smallHeading3.style.background= 'red';
 
 
 
