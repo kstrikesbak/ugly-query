@@ -42,17 +42,16 @@ const list2 = document.querySelector("#list2");
 list2.style.color = 'rebeccapurple';
 
 const list2contents1 = document.querySelector("#list2 #contents:nth-child(1)");
-list2contents1.style.fontSize = '70px';
+list2contents1.style.fontSize = '50px';
 list2contents1.style.fontWeight = '400';
-
 const list2contents2 = document.querySelector("#list2 #contents:nth-child(2)");
 list2contents2.style.fontSize = '100px';
 const list2contents3 = document.querySelector("#list2 #contents:nth-child(3)");
-list2contents3.style.fontSize = '70px';
+list2contents3.style.fontSize = '50px';
 const list2contents4 = document.querySelector("#list2 #contents:nth-child(4)");
 list2contents4.style.fontSize = '100px';
 const list2contents5 = document.querySelector("#list2 #contents:nth-child(5)");
-list2contents5.style.fontSize = '70px';
+list2contents5.style.fontSize = '50px';
 
 const smallHeading1 = document.querySelector("#smallheading1")
 smallHeading1.style.fontSize ='50px';
@@ -70,6 +69,14 @@ smallHeading3.style.fontSize ='50px';
 smallHeading3.style.textDecoration = "underline overline";
 smallHeading3.style.background= 'red';
 
+const newTextArea = document.querySelector('textarea');
+newTextArea.style.background = 'red';
+newTextArea.style.height = '500px';
+
+const newButton = document.querySelector('button')
+newButton.style.width = '500px';
+newButton.style.height = '500px';
+newButton.style.background= 'url("https://statics.sportskeeda.com/wp-content/uploads/2015/03/bowden-1426675278.jpg")'
 
 
 
