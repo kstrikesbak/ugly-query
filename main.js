@@ -37,8 +37,22 @@ thirdParagraph.style.fontSize = '30px';
 
 const list1 = document.querySelector("#list1");
 list1.style.color = 'yellow';
+
 const list2 = document.querySelector("#list2");
 list2.style.color = 'rebeccapurple';
+
+const list2contents1 = document.querySelector("#list2 #contents:nth-child(1)");
+list2contents1.style.fontSize = '70px';
+list2contents1.style.fontWeight = '400';
+
+const list2contents2 = document.querySelector("#list2 #contents:nth-child(2)");
+list2contents2.style.fontSize = '100px';
+const list2contents3 = document.querySelector("#list2 #contents:nth-child(3)");
+list2contents3.style.fontSize = '70px';
+const list2contents4 = document.querySelector("#list2 #contents:nth-child(4)");
+list2contents4.style.fontSize = '100px';
+const list2contents5 = document.querySelector("#list2 #contents:nth-child(5)");
+list2contents5.style.fontSize = '70px';
 
 const smallHeading1 = document.querySelector("#smallheading1")
 smallHeading1.style.fontSize ='50px';
